@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Exercise: Book</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div>Exercise: Book</div>
+        <script>
+
+            var book = {
+                title: "My first Book",
+                body: ["page1", "page2", "page3"]
+            };
+            console.log(book.title);
+            console.log(book.body);
+
+            var book2 = {
+                title: "My second Book",
+                body: ["page1", "page2", "page3"]
+            };
+            console.log(book2.title);
+            console.log(book2.body);
+
+            var book3 = {
+                title: "Infinite Jest",
+                body: ["Written by David Foster Wallace",
+                    "Hal Incandenza is the youngest of the Incandenza children.",
+                    "As a child, he was very precocious."]
+            };
+
+            function readBook(book2read) {
+                console.log("Title: " + book2read.title);
+                for (var i = 0; i < book2read.body.length; i++)
+                {
+                    console.log("Page " + (i + 1) + ": " + book2read.body[i]);
+                }
+            }
+            ;
+
+            function readPage(book2read, page2read)
+            {
+                console.log(book2read.body[(page2read - 1)]);
+            }
+
+
+        </script>
+    </body>
+
+</html>
