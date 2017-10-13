@@ -1,0 +1,10 @@
+{
+    "name": "CountryInfo",
+    "version": "1.0.0",
+    "keywords": ["util", "functional", "server", "client", "browser"],
+    "author": "cmigu",
+    "contributors": [],
+    "dependencies": {}, "scripts":{
+"start":"node part1.js Portugal"}
+
+}
